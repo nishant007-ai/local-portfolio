@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <title>BIO-DATA</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fffdf5;
+      padding: 40px;
+    }
+
+    .biodata {
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+      border: 3px solid goldenrod;
+      border-radius: 15px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(218, 165, 32, 0.4);
+      line-height: 2;
+      font-size: 14px;
+      position: relative;
+      background-image: url('hk2.jpeg'); /* Change this to your desired image path */
+      <div class="biodata">
+  <img src="hk.jpeg" class="watermark">
+  <h2>BIO-DATA</h2>
+  ...
+</div>
+
+      background-position: center;
+      background-size: 300px;
+      background-blend-mode: lighten;
+    }
+
+    .biodata::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255,255,255,0.85); /* makes content more readable */
+      z-index: 0;
+      border-radius: 15px;
+    }
+
+    .biodata * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .biodata h2 {
+      text-align: center;
+      color: goldenrod;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    .row {
+      margin-bottom: 8px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #444;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .indent {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="biodata">
+    <h2>BIO-DATA</h2>
+    
+    <div class="row"><span class="label">नाव :</span> संभाजी शिवाजी भारे</div>
+    <div class="row"><span class="label">शिक्षण :</span> १२ वी (आयटीआय)</div>
+    <div class="row"><span class="label">नोकरी :</span> महापालिका</div>
+    <div class="row"><span class="label">जन्म तारीख :</span> 31/01/1997</div>
+    <div class="row"><span class="label">जन्म वेळ :</span> रात्री 6 वाजता</div>
+    <div class="row"><span class="label">नावरस नाव :</span> देवराज</div>
+    <div class="row"><span class="label">नाडी :</span> अंद्र</div>
+    <div class="row"><span class="label">रक्तगट :</span> O (+)</div>
+    <div class="row"><span class="label">उंची :</span> 5'-2"</div>
+    <div class="row"><span class="label">जन्म ठिकाण :</span> कचरेवाडी</div>
+    <div class="row"><span class="label">देवक :</span> शहामृग पंख</div>
+    <div class="row"><span class="label">रास :</span> कुंभ</div>
+    <div class="row"><span class="label">शेती :</span> 9 एकर</div>
+    <div class="row"><span class="label">जात :</span> हिंदू - मराठा</div>
+
+    <div class="row"><span class="label">कौटुंबिक माहिती :</span></div>
+    <div class="indent">वडील :- शिवाजी दत्तु भारे</div>
+    <div class="indent">आई :- सुनीता शिवाजी भारे</div>
+    <div class="indent">चुलता :- महादेव दत्तु भारे</div>
+    <div class="indent">चुलती :- जयमाला महादेव भारे</div>
+    <div class="indent">भाऊ :- तानाजी शिवाजी भारे</div>
+
+    <div class="row"><span class="label">पाऊणे :</span> मोरे, ताड, गायकवाड, जाधव, गोवे, भोसले, माने,<br> शिंदे, अवताडे, रोकडे, रोंगे, सावंत, काटकर, हेंबाडे, कदम, चव्हाण</div>
+
+    <div class="row"><span class="label">मामा :</span> महादेव ज्ञानेश्वर काळुंगे</div>
+    <div class="row"><span class="label">मोबाईल नं. :</span> 9637672301</div>
+    <div class="row"><span class="label">पत्ता :</span> मु. पो. भाळवणी, ता. मंगळवेढा</div>
+  </div>
+
+</body>
+</html>

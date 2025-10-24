@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <title>बायोडाटा</title>
+    <style>
+        body {
+            font-family: 'Devanagari', 'Arial', sans-serif;
+            margin: 30px;
+            background: white;
+        }
+        .container {
+            border: 2px solid black;
+            padding: 40px;
+            width: 700px;
+            margin: auto;
+            position: relative;
+        }
+        .title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 8px;
+        }
+        .label {
+            font-weight: bold;
+        }
+        .value {
+            margin-left: 10px;
+        }
+        .center {
+            text-align: center;
+        }
+        .ganesh {
+            position: absolute;
+            top: 30%;
+            left: 35%;
+            opacity: 0.08;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="center">||श्री गणेशाय नमः||</div>
+        <div class="title">बायोडाटा</div>
+
+        <div class="section"><span class="label">मुलाचे नाव:</span><span class="value">श्री. प्रसाद जीवन शिंदे</span></div>
+        <div class="section"><span class="label">जन्म तारीख:</span><span class="value">३०/१२/१९९५</span></div>
+        <div class="section"><span class="label">जन्मवार:</span><span class="value">शनिवार</span></div>
+        <div class="section"><span class="label">जन्म वेळ:</span><span class="value">सकाळी ७:१५ वा.</span></div>
+        <div class="section"><span class="label">जन्म स्थळ:</span><span class="value">रूग्णालय, ता. सांगोला, जि. सोलापूर</span></div>
+        <div class="section"><span class="label">रास:</span><span class="value">कर्क</span></div>
+        <div class="section"><span class="label">नवसाचा नाव:</span><span class="value">मारुती</span></div>
+        <div class="section"><span class="label">देवक:</span><span class="value">मरिबाईचा झाड</span></div>
+        <div class="section"><span class="label">जात:</span><span class="value">माळी (८४ कुळी)</span></div>
+        <div class="section"><span class="label">उंची:</span><span class="value">५ फूट ८ इंच</span></div>
+        <div class="section"><span class="label">रक्तगट:</span><span class="value">O +ve</span></div>
+        <div class="section"><span class="label">कुळस्वामिनी:</span><span class="value">श्री. भैरवनाथ, अंकोली, ता. मोहोळ, जि. सोलापूर</span></div>
+        <div class="section"><span class="label">वर्ण:</span><span class="value">गोरा</span></div>
+        <div class="section"><span class="label">शिक्षण:</span><span class="value">BE (CSE)</span></div>
+        <div class="section"><span class="label">नोकरी:</span><span class="value">Timespro, Mumbai</span></div>
+        <div class="section"><span class="label">वेतन:</span><span class="value">रु. उल्लेख करा</span></div>
+
+        <div class="section"><span class="label">वडिलांचे नाव:</span><span class="value">के. जीवन एकनाथ शिंदे</span></div>
+        <div class="section"><span class="label">आई:</span><span class="value">श्रीमती. आशा जीवन शिंदे</span></div>
+        <div class="section"><span class="label">भाऊ:</span><span class="value">विनायक शिंदे</span></div>
+
+        <div class="section"><span class="label">मुलाचे पत्ते:</span><span class="value">के. जीवन शिंदे, भालवणी, ता. सांगोला</span></div>
+        <div class="section"><span class="label">संपर्क:</span><span class="value">9158054913</span></div>
+    </div>
+</body>
+</html>
