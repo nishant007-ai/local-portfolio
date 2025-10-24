@@ -1,0 +1,18 @@
+# Node modules (if you ever use Node)
+node_modules/
+
+# MacOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+Thumbs.db
